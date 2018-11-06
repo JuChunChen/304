@@ -5,6 +5,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 a {
 	text-decoration: none;/*去除下划线*/
 	color:#FFFFFF;
@@ -22,11 +23,15 @@ h2 {
 
 /*主页面*/
 .main-warp{
-	background: url(../img/bridge.jpg);
+	background: url(../img/banner.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;/*背景连接方式 固定；*/
 	background-size:100% 110%;
 }
+@media only screen and (max-width: 500px) {
+	.main-warp{
+background: #53564F;
+	}}
 nav {
 	background: #5D9CEC;
 	height: 50px;
@@ -306,6 +311,7 @@ h2 {
 		margin: 8% 0;
 		width: 100%;
 	}
+	
 }
 .button2 {
 	background: #fd0054;
